@@ -12,7 +12,7 @@ The script does what it's supposed to on my home system and won't be supported, 
 - RetroPie/Emulationstation
 
 # Features
-- Automatically update a ZeroTier connection
+- Automatically toggle(connect&disconnect) a ZeroTier connection
 - Add the ZeroTier connection to the routing table, so that certain LAN games find the hosts connected to the ZT-network
 - Can be run directly from the RetroPie games list menus.
 
