@@ -7,9 +7,9 @@ some LAN games. Basically a raw copy with some added sudo and ip route commands.
 The script does what it's supposed to on my home system and won't be supported, updated or maintained actively.
 
 # Prerequisites
--Raspberry Pi with Linux
--ZeroTier
--RetroPie/Emulationstation
+- Raspberry Pi with Linux
+- ZeroTier
+- RetroPie/Emulationstation
 
 # Features
 - Automatically update a ZeroTier connection 
