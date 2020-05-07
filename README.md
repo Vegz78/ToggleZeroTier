@@ -12,10 +12,9 @@ The script does what it's supposed to on my home system and won't be supported, 
 - RetroPie/Emulationstation
 
 # Features
-- Automatically update a ZeroTier connection 
-- Can be run directly from the RetroPie Moonlight/Steam games list.
-- Restarts EmulationStation to update the games list with new entries.
-- Game files already present and not previously created by this script are not overwritten.
+- Automatically update a ZeroTier connection
+- Add the ZeroTier connection to the routing table, so that certain LAN games find the hosts connected to the ZT-network
+- Can be run directly from the RetroPie games list menus.
 
 # Usage: 
 1 - Download and copy the script into one of your RetroPie roms folder, typically "/home/pi/RetroPie/roms/..". Make sure it's executable. <br>
