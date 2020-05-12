@@ -15,12 +15,12 @@ The script does what it's supposed to on my home system and won't be supported, 
 # Features
 - Automatically toggle(connect&disconnect) a ZeroTier connection
 - Add the ZeroTier connection to the routing table, so that certain LAN games find the hosts connected to the ZT-network
-- Can be run directly from the RetroPie games list menus.
+- Can be run directly from the RetroPie games list menus or from the command line.
 
 # Usage
 1 - Download and copy the script into one of your RetroPie roms folder, typically "/home/pi/RetroPie/roms/..". Make sure it's executable. <br>
     Alternatively, in same folder, run:<BR>
-    git clone https://github.com/Vegz78/ToggleZeroTier && sudo chmod +x _ToogleZeroTier.sh
+    ```git clone https://github.com/Vegz78/ToggleZeroTier && sudo chmod +x _ToogleZeroTier.sh```
 
 2 - Edit _ToggleZeroTier.sh with the desired global variables correct for your setup(ZeroTier Network ID & Device ID.)
 
