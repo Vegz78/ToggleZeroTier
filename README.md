@@ -1,5 +1,5 @@
 # ToggleZeroTier
-A script to automatically toggle a ZeroTier connection and add it to the routing table directly from the RetroPie/Emulationstation game menu from a Raspberry Pi with RetroPie/Emulationstation.
+A script to automatically toggle a ZeroTier connection and add it to the routing table directly from a games folder that executes .sh-scripts inside RetroPie/Emulationstation, or from a Linux command line.
 
 This is a REALLY quick and ugly modifcation of ../gsomoza/ztvpn.sh on GitHub, to allow for execution directly from RetroPie, and adding and removing the ZeroTier network from the routing table, so that ZeroTier peers are discovered automatically by
 some LAN games. Basically a raw copy with some added sudo and ip route commands... 
@@ -7,9 +7,10 @@ some LAN games. Basically a raw copy with some added sudo and ip route commands.
 The script does what it's supposed to on my home system and won't be supported, updated or maintained actively.
 
 # Prerequisites
-- Raspberry Pi with Linux
-- ZeroTier
-- RetroPie/Emulationstation
+- Raspberry Pi with Linux (but should work on most Linux distros, as well)
+- [ZeroTier](https://www.zerotier.com/download/)
+- RetroPie/Emulationstation with [Steam or other games menu folders that execute .sh-scripts](https://github.com/TechWizTime/moonlight-retropie)
+(but should also work on other RetroArch installations or from the command line)
 
 # Features
 - Automatically toggle(connect&disconnect) a ZeroTier connection
