@@ -9,7 +9,7 @@ The script does what it's supposed to on my home system and won't be supported, 
 # Prerequisites
 - Raspberry Pi with Linux (but should work on most Linux distros, as well)
 - [ZeroTier](https://www.zerotier.com/download/)
-- RetroPie/Emulationstation with [Steam or other games menu folders that execute .sh-scripts](#-example-of-.sh-script-games-menu-in-emulationstation:)
+- RetroPie/Emulationstation with [Steam or other games menu folders that execute .sh-scripts](#-Example-of-.sh\-script-games-menu-in-Emulationstation:)
 (but should also work on other RetroArch installations or from the command line)
 
 # Features
