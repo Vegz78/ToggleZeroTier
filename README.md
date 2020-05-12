@@ -29,7 +29,7 @@ The script does what it's supposed to on my home system and won't be supported, 
 4 - Run the _ToggleZeroTier entry.
 
 # Example of sh script games menu in Emulationstation
-Edit the file /etc/emulationstation/es_systems.cfg
+Edit the file /etc/emulationstation/es_systems.cfg as inspired by [TechWizTime](https://github.com/TechWizTime/moonlight-retropie).
 
 Add something like this:
 ```
