@@ -20,7 +20,7 @@ The script does what it's supposed to on my home system and won't be supported, 
 # Usage
 1 - Download and copy the script into one of your RetroPie roms folder, typically "/home/pi/RetroPie/roms/..". Make sure it's executable. <br>
     Alternatively, in same folder, run:<BR>
-    ```git clone https://github.com/Vegz78/ToggleZeroTier && sudo chmod +x _ToogleZeroTier.sh```
+    ```git clone https://github.com/Vegz78/ToggleZeroTier && sudo chmod +x ./ToggleZeroTier/_ToggleZeroTier.sh```
 
 2 - Edit _ToggleZeroTier.sh with the desired global variables correct for your setup(ZeroTier Network ID & Device ID.)
 
