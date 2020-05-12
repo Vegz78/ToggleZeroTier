@@ -9,7 +9,7 @@ The script does what it's supposed to on my home system and won't be supported, 
 # Prerequisites
 - Raspberry Pi with Linux (but should work on most Linux distros, as well)
 - [ZeroTier](https://www.zerotier.com/download/)
-- RetroPie/Emulationstation with [Steam or other games menu folders that execute .sh-scripts](#-Example-of-.sh\-script-games-menu-in-Emulationstation:)
+- RetroPie/Emulationstation with [Steam or other games menu folders that execute .sh-scripts](#usage)
 (but should also work on other RetroArch installations or from the command line)
 
 # Features
@@ -17,7 +17,7 @@ The script does what it's supposed to on my home system and won't be supported, 
 - Add the ZeroTier connection to the routing table, so that certain LAN games find the hosts connected to the ZT-network
 - Can be run directly from the RetroPie games list menus.
 
-# Usage: 
+# Usage 
 1 - Download and copy the script into one of your RetroPie roms folder, typically "/home/pi/RetroPie/roms/..". Make sure it's executable. <br>
     Alternatively, in same folder, run:<BR>
     git clone https://github.com/Vegz78/ToggleZeroTier && sudo chmod +x _ToogleZeroTier.sh
