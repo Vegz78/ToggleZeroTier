@@ -9,7 +9,7 @@ The script does what it's supposed to on my home system and won't be supported, 
 # Prerequisites
 - Raspberry Pi with Linux (but should work on most Linux distros, as well)
 - [ZeroTier](https://www.zerotier.com/download/)
-- RetroPie/Emulationstation with [Steam or other games menu folders that execute .sh-scripts](#Example-of-.sh-script-games-menu-in-Emulationstation)
+- RetroPie/Emulationstation with [Steam or other games menu folders that execute .sh-scripts](#Example-of-sh-script-games-menu-in-Emulationstation)
 <br>(but should also work on other RetroArch installations or from the command line)
 
 # Features
@@ -28,7 +28,7 @@ The script does what it's supposed to on my home system and won't be supported, 
 
 4 - Run the _ToggleZeroTier entry.
 
-# Example of .sh script games menu in Emulationstation
+# Example of sh script games menu in Emulationstation
 Edit the file /etc/emulationstation/es_systems.cfg
 
 Add something like this:
