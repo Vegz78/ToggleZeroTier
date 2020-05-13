@@ -1,6 +1,12 @@
 # ToggleZeroTier
 A script to automatically toggle a ZeroTier connection and add it to the routing table directly from a games folder that executes .sh-scripts inside RetroPie/Emulationstation, or from a Linux command line.
 
+Added a new 3 step logic instad of the old 2 step, so that one easily can restore ZT broadcast after reboot:
+STATE                       ACTION
+1. ZT off           =>	    Toggle to 2
+2. ZT on & BC off	=>	    Toggle to 3
+3. ZT on & BC on	=>	    Toggle to 1		
+
 This is a REALLY quick and ugly modifcation of ../gsomoza/ztvpn.sh on GitHub, to allow for execution directly from RetroPie, and adding and removing the ZeroTier network from the routing table, so that ZeroTier peers are discovered automatically by
 some LAN games. Basically a raw copy with some added sudo and ip route commands... 
 
