@@ -4,7 +4,7 @@ A script to automatically toggle a ZeroTier connection and add it to the routing
 This is a REALLY quick and ugly modifcation of ../gsomoza/ztvpn.sh on GitHub, to allow for execution directly from RetroPie, and adding and removing the ZeroTier network from the routing table, so that ZeroTier peers are discovered automatically by
 some LAN games. Basically a raw copy with some added sudo and ip route commands... 
 
-The script does what it's supposed to on my home system and won't be supported, updated or maintained actively.
+The script does what it's supposed to on my home system and won't be very actively supported, updated or maintained.
 
 # Prerequisites
 - Raspberry Pi with Linux (but should work on most Linux distros, as well)
