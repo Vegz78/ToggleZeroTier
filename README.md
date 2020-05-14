@@ -12,6 +12,8 @@ some LAN games. Basically a raw copy with some added sudo and ip route commands.
 
 The script does what it's supposed to on my home system and won't be very actively supported, updated or maintained.
 
+For similar, but a little more complicated, solutions on Windows, see the [ZeroTier Knowledgebase](https://zerotier.atlassian.net/wiki/spaces/SD/pages/7536695/Problems+With+LAN+Game+Announcements+and+Broadcasts+on+Windows)
+
 # Prerequisites
 - Raspberry Pi with Linux (but should work on most Linux distros, as well)
 - [ZeroTier](https://www.zerotier.com/download/)
