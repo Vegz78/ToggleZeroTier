@@ -1,7 +1,7 @@
 # ToggleZeroTier
 A script to automatically toggle a ZeroTier connection and add it to the routing table directly from a games folder that executes .sh-scripts inside RetroPie/Emulationstation, or from a Linux command line.
 
-Added a new 3 step logic instad of the old 2 step, so that one easily can restore ZT broadcast after reboot:<br>
+Added a new 3 step logic instead of the old 2 all-on/all-off, so that one easily can restore ZT broadcast after reboot:<br>
 STATE               =>      ACTION<br>
 1.ZT off           =>	    Toggle to 2<br>
 2.ZT on & BC off	=>	    Toggle to 3<br>
@@ -20,7 +20,7 @@ The script does what it's supposed to on my home system and won't be very active
 
 # Features
 - Automatically toggle(connect&disconnect) a ZeroTier connection
-- Add the ZeroTier connection to the routing table, so that certain LAN games find the hosts connected to the ZT-network
+- Add the ZeroTier connection to the routing table, so that certain LAN games that use broadcast network discovery can find the other hosts connected to the ZT-network
 - Can be run directly from the RetroPie games list menus or from the command line.
 
 # Usage
