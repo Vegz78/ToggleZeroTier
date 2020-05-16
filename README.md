@@ -7,7 +7,7 @@ STATE               =>      ACTION<br>
 2.ZT on & BC off	=>	    Toggle to 3<br>
 3.ZT on & BC on	=>	    Toggle to 1		
 
-This is a REALLY quick and ugly modifcation of [../gsomoza/ztvpn.sh](https://gist.github.com/gsomoza/662ccfe13d628ec0a6ae0f858a5d99dc/revisions) on GitHub, to allow for execution directly from RetroPie, and adding and removing the ZeroTier network from the routing table, so that ZeroTier peers are discovered automatically by
+This is a REALLY quick and ugly modifcation of [../gsomoza/ztvpn.sh](https://gist.github.com/gsomoza/662ccfe13d628ec0a6ae0f858a5d99dc) on GitHub, to allow for execution directly from RetroPie, and adding and removing the ZeroTier network from the routing table, so that ZeroTier peers are discovered automatically by
 some LAN games. Basically a raw copy with some added sudo and ip route commands... 
 
 The script does what it's supposed to on my home system and won't be very actively supported, updated or maintained.
