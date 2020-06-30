@@ -1,5 +1,6 @@
 # ToggleZeroTier
 A script to automatically toggle a ZeroTier connection and add it to the routing table directly from a games folder that executes .sh-scripts inside RetroPie/Emulationstation, or from a Linux command line.
+![alt text](https://retrospill.ninja/wp-content/uploads/2020/05/Raspberry_TierZero.jpg)
 
 Added a new 3 step logic instead of the old 2 all-on/all-off, so that one easily can restore ZT broadcast after reboot:<br>
 STATE               =>      ACTION<br>
@@ -25,7 +26,7 @@ For similar, but a little more complicated, solutions on Windows, see the [ZeroT
 - Add the ZeroTier connection to the routing table, so that certain LAN games that use broadcast network discovery can find the other hosts connected to the ZT-network
 - Can be run directly from the RetroPie games list menus or from the command line.
 
-# Usage
+# Setup and usage
 1 - Download and copy the script into one of your RetroPie roms folder, typically "/home/pi/RetroPie/roms/..". Make sure it's executable. <br>
     Alternatively, in same folder, run:<BR>
     ```git clone https://github.com/Vegz78/ToggleZeroTier && sudo chmod +x ./ToggleZeroTier/_ToggleZeroTier.sh```
@@ -35,6 +36,8 @@ For similar, but a little more complicated, solutions on Windows, see the [ZeroT
 3 - Start RetroPie and navigate to the chosen games list menu.
 
 4 - Run the _ToggleZeroTier entry.
+
+For more detailed setup and usage instructions, [check out this article](https://translate.google.com/translate?hl=no&sl=no&tl=en&u=https%3A%2F%2Fretrospill.ninja%2F2020%2F05%2Fzerotier-pa-raspberry-pi%2F).
 
 # Example of sh script games menu in Emulationstation
 Edit the file /etc/emulationstation/es_systems.cfg as inspired by [TechWizTime](https://github.com/TechWizTime/moonlight-retropie).
@@ -51,3 +54,7 @@ Add something like this:
     <theme>steam</theme>
   </system>
 ```
+# Images
+![alt text](https://retrospill.ninja/wp-content/uploads/2020/05/retro2png_13a.jpeg)
+![alt text](https://retrospill.ninja/wp-content/uploads/2020/05/retro2png_10.jpeg)
+![alt text](https://retrospill.ninja/wp-content/uploads/2020/05/retro2png_12.jpeg)
