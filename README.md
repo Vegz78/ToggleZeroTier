@@ -37,7 +37,7 @@ For similar, but a little more complicated, solutions on Windows, see the [ZeroT
 
 4 - Run the _ToggleZeroTier entry.
 
-For more detailed setup and usage instructions, [check out this article](https://translate.google.com/translate?hl=no&sl=no&tl=en&u=https%3A%2F%2Fretrospill.ninja%2F2020%2F05%2Fzerotier-pa-raspberry-pi%2F).
+For more detailed setup and usage instructions, [check out this article](https://translate.google.com/translate?hl=no&sl=no&tl=en&u=https%3A%2F%2Fretrospill.ninja%2F2020%2F05%2Fzerotier-pa-raspberry-pi%2F). An example of use together with RetroPie Netplay can be found [in this article](https://translate.google.no/translate?sl=no&tl=en&u=https%3A%2F%2Fretrospill.ninja%2F2020%2F05%2Ftetris-faceoff%2F%23Sammen_remote).
 
 # Example of sh script games menu in Emulationstation
 Edit the file /etc/emulationstation/es_systems.cfg as inspired by [TechWizTime](https://github.com/TechWizTime/moonlight-retropie).
